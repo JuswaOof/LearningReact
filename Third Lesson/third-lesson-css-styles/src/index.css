@@ -1,0 +1,14 @@
+/* external css: 
+ - for small projects
+ - hard to track different class names in a large project
+ - naming conflicts*/
+
+.buttonExternal{
+  background-color: rgb(255, 0, 0);
+  color: white;
+  padding: 10px 20px;
+  margin: 20px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
