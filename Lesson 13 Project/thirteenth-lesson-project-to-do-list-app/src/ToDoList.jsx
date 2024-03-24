@@ -2,7 +2,7 @@ import React, {useState} from 'react'
 
 function ToDoList(){
 
- const [task,setTask] = useState(['test1', 'test2']);
+ const [task,setTask] = useState([]);
  const [newTask,setNewTask] = useState('');
 
  function taskAdd(){
@@ -12,7 +12,7 @@ function ToDoList(){
  }
  }
  function taskDelete(index){
-  const updateTask = task.filter((element, i) => i !== index);
+  const updateTask = task.filter((_, i) => i !== index);
   setTask(updateTask);
  }
  function handleTaskChange(e){
