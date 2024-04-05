@@ -1,0 +1,35 @@
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+ background-image: url('https://source.unsplash.com/random');
+ background-repeat: no-repeat;
+ background-position: center;
+ background-size: cover;
+ background-attachment: fixed;
+ display: flex;
+ align-items: center;
+ min-height: 100vh;
+}
+
+.clockContainer{
+ width: 100vw;
+ padding: 30px;
+ backdrop-filter: blur(5px);
+ border-radius: 20px;
+}
+
+.clock{
+ font-size: 5rem;
+ color: white;
+ text-shadow: 
+   -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+ text-align: center;
+}
