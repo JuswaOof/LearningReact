@@ -1,0 +1,66 @@
+.body{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ font-family: Arial, Helvetica, sans-serif;
+}
+
+.stopWatchContainer{
+ padding: 50px;
+ border: 1px solid rgba(0, 0, 0, 0.5);
+ border-radius: 10px;
+ position: absolute;
+ top: 30%;
+ left: 50%;
+ transform: translate(-50%,-50%);
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ gap: 30px;
+ background-color: #FFEED9;
+}
+
+.timeDisplay{
+ font-size: 5rem;
+}
+
+.buttonContainer{
+ display: flex;
+ gap: 10px;
+}
+
+button{
+ padding: 15px;
+ color: white;
+ border: none;
+ border-radius: 5px;
+ margin: 5px;
+ font-size: 2rem;
+}
+
+.start{
+ background-color: #97E3C2;
+}
+
+.stop{
+ background-color: #F69C9E;
+}
+
+.reset{
+ background-color: #99C3EC;
+}
+
+.start:hover{
+ background-color: #00ff91;
+ cursor: pointer;
+}
+
+.stop:hover{
+ background-color: #ff0004;
+ cursor: pointer;
+}
+
+.reset:hover{
+ background-color: #0080ff;
+ cursor: pointer;
+}
